@@ -5,14 +5,55 @@ body {
 	font-family: 'Montserrat', sans-serif; 
 }
 
+.container{
+	position: relative;
+}
+/* Titels */
+.oops{
+	position: relative;
+	top: 50px;
+	left:100px;
+}
 
+
+/* gif */
+.giphy{
+	max-width: 480px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px; 
+}
+
+
+
+/* home tekst */
+.lost{
+	position: relative;
+	top: 50px;
+	text-align: center;
+	
+	/*border-style: solid;
+	border-width: 2px;
+	border-color: pink; */
+	padding: 0;
+	padding-bottom: 20px;
+
+	
+}
+
+
+}
+/* home button */
 .home {
-  border: none;
-  background-color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: alias;
-  display: inline-block;
+  	position: absolute;
+	border: none;
+  	background-color: none;
+  	padding: 14px 28px;
+  	font-size: 16px;
+  	cursor: alias;
+	margin: 0 auto;
+
+
 }
 
 
