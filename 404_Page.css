@@ -44,24 +44,39 @@ body {
 
 }
 /* home button */
-.home {
+.homebutton {
   	position: absolute;
 	border: none;
-  	background-color: none;
   	padding: 14px 28px;
   	font-size: 16px;
   	cursor: alias;
 	margin: 0 auto;
-
-
+	
 }
 
+	
+.homebutton:hover {
+	background-color: turquoise;
+	/*animation-timing-function: ease;*/
+	animation-duration: 2s;
+	animation-name: button;
+}
 
-/* The animation code
-@keyframes Home {
-  from {background-color: white;}
-  to {background-color: pink;}
-}*/
+@keyframes button{
+	from {font-size: 100%;}
+	to {font-size: 200%;}
+} 
+
+
+/*@keyframes button{
+	0%   {background-color: white;}
+  	25%  {background-color: yellow;}
+  	50%  {background-color: blue;}
+  	100% {background-color: green;}
+}
+*/
+
+
 
 /* The element to apply the animation to 
 .Home {
